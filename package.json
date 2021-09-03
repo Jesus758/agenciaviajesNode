@@ -1,0 +1,30 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Paquete de practica",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesus758/agenciaviajesNode.git"
+  },
+  "type": "module",
+  "author": "Jesus Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesus758/agenciaviajesNode/issues"
+  },
+  "homepage": "https://github.com/Jesus758/agenciaviajesNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
